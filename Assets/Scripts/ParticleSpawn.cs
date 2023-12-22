@@ -19,18 +19,17 @@ public class ParticleSpawn : MonoBehaviour
     {
         for (int i = 0; i < sphereCount; i++)
         {
+            int sphereIndex = i + 1;
             GameObject newSphere = Instantiate(sphere);
             sphere.transform.position = Vector3.zero;
             spheresList.Add(sphere);
+            newSphere.name = "Sphere_" + sphereIndex;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        foreach (GameObject sphere in spheresList)
-        {
-            
-        }
+
     }
 }
