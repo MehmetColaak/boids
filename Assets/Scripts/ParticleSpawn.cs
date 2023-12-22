@@ -5,7 +5,7 @@ public class ParticleSpawn : MonoBehaviour
 {
     [SerializeField]
     public GameObject sphere;
-    //GameObject sphere;
+    //deneme
     List<GameObject> spheresList;
     public int sphereCount = 20;
 
