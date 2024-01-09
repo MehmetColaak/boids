@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d6b2adc0b2046feae81f652375be96, type: 3}
   m_Name: Avoidance
   m_EditorClassIdentifier: 
+  filter: {fileID: 11400000, guid: 6f4eca9282c0842eb812420148dfcc87, type: 2}
